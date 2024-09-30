@@ -1,10 +1,10 @@
 function checkForSpam(message) {
-    totalMessage = message.toLowerCase();
+    const totalMessage = message.toLowerCase();
     if(totalMessage.includes('spam') || totalMessage.includes('sale')) {
-        return true
+        return true;
     }
     else {
-        return false
+        return false;
     }
 
 }
